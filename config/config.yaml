@@ -1,0 +1,123 @@
+reddit:
+    client_id : "YOUR CLIENT ID"
+    client_secret: "YOUR CLIENT SECRET"
+    user_agent: "reddit_pipeline_app"
+    subreddits:
+          - announcements
+          - funny
+          - AskReddit
+          - gaming
+          - aww
+          - Music
+          - pics
+          - science
+          - worldnews
+          - videos
+          - todayilearned
+          - movies
+          - news
+          - Showerthoughts
+          - EarthPorn
+          - gifs
+          - IAmA
+          - food
+          - askscience
+          - Jokes
+          - LifeProTips
+          - explainlikeimfive
+          - Art
+          - books
+          - mildlyinteresting
+          - nottheonion
+          - DIY
+          - sports
+          - blog
+          - space
+          - gadgets
+          - memes
+          - technology
+          - Damnthatsinteresting
+          - wallstreetbets
+          - MadeMeSmile
+          - mildlyinfuriating
+          - ChatGPT
+          - AmIOverreacting
+          - programming
+          - BlackPeopleTwitter
+          - law
+          - CleaningTips
+          - Advice
+          - SipsTea
+          - PokemonTCG
+          - geography
+          - landscaping
+          - tattooadvice
+          - marvelrivals
+          - olympics
+          - deadbydaylight
+          - MachineLearning
+          - OpenAI
+          - politics
+          - entertainment
+          - history
+          - philosophy
+          - fitness
+          - relationships
+          - TrueOffMyChest
+          - antiwork
+          - personalfinance
+          - dataisbeautiful
+          - nosleep
+          - creepy
+          - upliftingnews
+          - dankmemes
+          - wholesomememes
+          - instant_regret
+          - PublicFreakout
+          - idiocy
+          - facepalm
+          - natureismetal
+          - unexpected
+          - nononono
+          - holdmybeer
+          - watchpeopledieinside
+          - tumblr
+          - twitter
+          - Instagramreality
+          - tifu
+          - malefashionadvice
+          - femalefashionadvice
+          - kpop
+          - anime
+          - manga
+          - leagueoflegends
+          - fortnitebr
+          - Minecraft
+          - nfl
+          - nba
+          - soccer
+          - baseball
+          - hockey
+          - tennis
+          - cooking
+          - baking
+          - recipes
+          - travel
+
+    fetch_limit: 100
+
+
+
+mongodb:
+    url : "mongodb://localhost:27017/"
+    database : "redditDB"
+    collection: "posts"
+
+
+data:
+  base_dir : "data/raw"
+  raw_path: data/raw/reddit_data.json
+  processed_dir: "data/processed"
+  external_dir: "data/external"
+  csv_filename: "reddit_data.csv"
+  json_filename: "reddit_data.json"

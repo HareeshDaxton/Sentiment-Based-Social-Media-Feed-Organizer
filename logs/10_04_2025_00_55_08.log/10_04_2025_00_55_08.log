@@ -1,0 +1,349 @@
+[2025-10-04 00:55:12,554] 17 root - INFO - Starting Reddit pipeline...
+[2025-10-04 00:55:12,682] 29 root - INFO - Ensured unique index on 'id'.
+[2025-10-04 00:55:12,683] 58 root - INFO - Fetching 100 posts from r/announcements
+[2025-10-04 00:55:12,683] 38 root - INFO - Start fetching r/announcements (limit=100) (attempt 1)
+[2025-10-04 00:55:20,744] 59 root - INFO - Completed fetching r/announcements — collected 100 posts
+[2025-10-04 00:55:21,746] 58 root - INFO - Fetching 100 posts from r/funny
+[2025-10-04 00:55:21,747] 38 root - INFO - Start fetching r/funny (limit=100) (attempt 1)
+[2025-10-04 00:55:25,759] 59 root - INFO - Completed fetching r/funny — collected 100 posts
+[2025-10-04 00:55:26,760] 58 root - INFO - Fetching 100 posts from r/AskReddit
+[2025-10-04 00:55:26,761] 38 root - INFO - Start fetching r/AskReddit (limit=100) (attempt 1)
+[2025-10-04 00:55:29,921] 59 root - INFO - Completed fetching r/AskReddit — collected 100 posts
+[2025-10-04 00:55:30,922] 58 root - INFO - Fetching 100 posts from r/gaming
+[2025-10-04 00:55:30,922] 38 root - INFO - Start fetching r/gaming (limit=100) (attempt 1)
+[2025-10-04 00:55:34,903] 59 root - INFO - Completed fetching r/gaming — collected 100 posts
+[2025-10-04 00:55:35,905] 58 root - INFO - Fetching 100 posts from r/aww
+[2025-10-04 00:55:35,905] 38 root - INFO - Start fetching r/aww (limit=100) (attempt 1)
+[2025-10-04 00:55:39,781] 59 root - INFO - Completed fetching r/aww — collected 100 posts
+[2025-10-04 00:55:40,784] 58 root - INFO - Fetching 100 posts from r/Music
+[2025-10-04 00:55:40,784] 38 root - INFO - Start fetching r/Music (limit=100) (attempt 1)
+[2025-10-04 00:55:44,446] 59 root - INFO - Completed fetching r/Music — collected 100 posts
+[2025-10-04 00:55:45,448] 58 root - INFO - Fetching 100 posts from r/pics
+[2025-10-04 00:55:45,449] 38 root - INFO - Start fetching r/pics (limit=100) (attempt 1)
+[2025-10-04 00:55:49,603] 59 root - INFO - Completed fetching r/pics — collected 100 posts
+[2025-10-04 00:55:50,605] 58 root - INFO - Fetching 100 posts from r/science
+[2025-10-04 00:55:50,605] 38 root - INFO - Start fetching r/science (limit=100) (attempt 1)
+[2025-10-04 00:55:54,435] 59 root - INFO - Completed fetching r/science — collected 100 posts
+[2025-10-04 00:55:55,436] 58 root - INFO - Fetching 100 posts from r/worldnews
+[2025-10-04 00:55:55,436] 38 root - INFO - Start fetching r/worldnews (limit=100) (attempt 1)
+[2025-10-04 00:55:58,956] 59 root - INFO - Completed fetching r/worldnews — collected 100 posts
+[2025-10-04 00:55:59,958] 58 root - INFO - Fetching 100 posts from r/videos
+[2025-10-04 00:55:59,958] 38 root - INFO - Start fetching r/videos (limit=100) (attempt 1)
+[2025-10-04 00:56:03,720] 59 root - INFO - Completed fetching r/videos — collected 100 posts
+[2025-10-04 00:56:04,722] 58 root - INFO - Fetching 100 posts from r/todayilearned
+[2025-10-04 00:56:04,722] 38 root - INFO - Start fetching r/todayilearned (limit=100) (attempt 1)
+[2025-10-04 00:56:08,322] 59 root - INFO - Completed fetching r/todayilearned — collected 100 posts
+[2025-10-04 00:56:09,324] 58 root - INFO - Fetching 100 posts from r/movies
+[2025-10-04 00:56:09,324] 38 root - INFO - Start fetching r/movies (limit=100) (attempt 1)
+[2025-10-04 00:56:13,056] 59 root - INFO - Completed fetching r/movies — collected 100 posts
+[2025-10-04 00:56:14,058] 58 root - INFO - Fetching 100 posts from r/news
+[2025-10-04 00:56:14,058] 38 root - INFO - Start fetching r/news (limit=100) (attempt 1)
+[2025-10-04 00:56:17,537] 59 root - INFO - Completed fetching r/news — collected 100 posts
+[2025-10-04 00:56:18,538] 58 root - INFO - Fetching 100 posts from r/Showerthoughts
+[2025-10-04 00:56:18,538] 38 root - INFO - Start fetching r/Showerthoughts (limit=100) (attempt 1)
+[2025-10-04 00:56:21,855] 59 root - INFO - Completed fetching r/Showerthoughts — collected 100 posts
+[2025-10-04 00:56:22,856] 58 root - INFO - Fetching 100 posts from r/EarthPorn
+[2025-10-04 00:56:22,856] 38 root - INFO - Start fetching r/EarthPorn (limit=100) (attempt 1)
+[2025-10-04 00:56:26,457] 59 root - INFO - Completed fetching r/EarthPorn — collected 100 posts
+[2025-10-04 00:56:27,459] 58 root - INFO - Fetching 100 posts from r/gifs
+[2025-10-04 00:56:27,459] 38 root - INFO - Start fetching r/gifs (limit=100) (attempt 1)
+[2025-10-04 00:56:31,210] 59 root - INFO - Completed fetching r/gifs — collected 100 posts
+[2025-10-04 00:56:32,213] 58 root - INFO - Fetching 100 posts from r/IAmA
+[2025-10-04 00:56:32,213] 38 root - INFO - Start fetching r/IAmA (limit=100) (attempt 1)
+[2025-10-04 00:56:36,368] 59 root - INFO - Completed fetching r/IAmA — collected 100 posts
+[2025-10-04 00:56:37,370] 58 root - INFO - Fetching 100 posts from r/food
+[2025-10-04 00:56:37,370] 38 root - INFO - Start fetching r/food (limit=100) (attempt 1)
+[2025-10-04 00:56:41,209] 59 root - INFO - Completed fetching r/food — collected 100 posts
+[2025-10-04 00:56:42,211] 58 root - INFO - Fetching 100 posts from r/askscience
+[2025-10-04 00:56:42,211] 38 root - INFO - Start fetching r/askscience (limit=100) (attempt 1)
+[2025-10-04 00:56:48,442] 59 root - INFO - Completed fetching r/askscience — collected 100 posts
+[2025-10-04 00:56:49,444] 58 root - INFO - Fetching 100 posts from r/Jokes
+[2025-10-04 00:56:49,444] 38 root - INFO - Start fetching r/Jokes (limit=100) (attempt 1)
+[2025-10-04 00:56:53,373] 59 root - INFO - Completed fetching r/Jokes — collected 100 posts
+[2025-10-04 00:56:54,374] 58 root - INFO - Fetching 100 posts from r/LifeProTips
+[2025-10-04 00:56:54,374] 38 root - INFO - Start fetching r/LifeProTips (limit=100) (attempt 1)
+[2025-10-04 00:56:58,077] 59 root - INFO - Completed fetching r/LifeProTips — collected 100 posts
+[2025-10-04 00:56:59,079] 58 root - INFO - Fetching 100 posts from r/explainlikeimfive
+[2025-10-04 00:56:59,079] 38 root - INFO - Start fetching r/explainlikeimfive (limit=100) (attempt 1)
+[2025-10-04 00:57:02,494] 59 root - INFO - Completed fetching r/explainlikeimfive — collected 100 posts
+[2025-10-04 00:57:03,496] 58 root - INFO - Fetching 100 posts from r/Art
+[2025-10-04 00:57:03,496] 38 root - INFO - Start fetching r/Art (limit=100) (attempt 1)
+[2025-10-04 00:57:07,306] 59 root - INFO - Completed fetching r/Art — collected 100 posts
+[2025-10-04 00:57:08,308] 58 root - INFO - Fetching 100 posts from r/books
+[2025-10-04 00:57:08,309] 38 root - INFO - Start fetching r/books (limit=100) (attempt 1)
+[2025-10-04 00:57:12,392] 59 root - INFO - Completed fetching r/books — collected 100 posts
+[2025-10-04 00:57:13,395] 58 root - INFO - Fetching 100 posts from r/mildlyinteresting
+[2025-10-04 00:57:13,395] 38 root - INFO - Start fetching r/mildlyinteresting (limit=100) (attempt 1)
+[2025-10-04 00:57:19,696] 59 root - INFO - Completed fetching r/mildlyinteresting — collected 100 posts
+[2025-10-04 00:57:20,698] 58 root - INFO - Fetching 100 posts from r/nottheonion
+[2025-10-04 00:57:20,698] 38 root - INFO - Start fetching r/nottheonion (limit=100) (attempt 1)
+[2025-10-04 00:57:24,503] 59 root - INFO - Completed fetching r/nottheonion — collected 100 posts
+[2025-10-04 00:57:25,505] 58 root - INFO - Fetching 100 posts from r/DIY
+[2025-10-04 00:57:25,505] 38 root - INFO - Start fetching r/DIY (limit=100) (attempt 1)
+[2025-10-04 00:57:29,835] 59 root - INFO - Completed fetching r/DIY — collected 100 posts
+[2025-10-04 00:57:30,837] 58 root - INFO - Fetching 100 posts from r/sports
+[2025-10-04 00:57:30,837] 38 root - INFO - Start fetching r/sports (limit=100) (attempt 1)
+[2025-10-04 00:57:35,500] 59 root - INFO - Completed fetching r/sports — collected 100 posts
+[2025-10-04 00:57:36,502] 58 root - INFO - Fetching 100 posts from r/blog
+[2025-10-04 00:57:36,502] 38 root - INFO - Start fetching r/blog (limit=100) (attempt 1)
+[2025-10-04 00:57:52,522] 161 prawcore - WARNING - Retrying due to ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Read timed out. (read timeout=16.0)")) status: GET https://oauth.reddit.com/r/blog/hot
+[2025-10-04 00:58:05,195] 161 prawcore - WARNING - Retrying due to ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\'oauth.reddit.com\', port=443): Max retries exceeded with url: /r/blog/hot?limit=100&raw_json=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001E793BFA010>: Failed to resolve \'oauth.reddit.com\' ([Errno 11001] getaddrinfo failed)"))')) status: GET https://oauth.reddit.com/r/blog/hot
+[2025-10-04 00:58:13,382] 59 root - INFO - Completed fetching r/blog — collected 100 posts
+[2025-10-04 00:58:14,383] 58 root - INFO - Fetching 100 posts from r/space
+[2025-10-04 00:58:14,383] 38 root - INFO - Start fetching r/space (limit=100) (attempt 1)
+[2025-10-04 00:58:18,114] 59 root - INFO - Completed fetching r/space — collected 100 posts
+[2025-10-04 00:58:19,116] 58 root - INFO - Fetching 100 posts from r/gadgets
+[2025-10-04 00:58:19,116] 38 root - INFO - Start fetching r/gadgets (limit=100) (attempt 1)
+[2025-10-04 00:58:23,083] 59 root - INFO - Completed fetching r/gadgets — collected 100 posts
+[2025-10-04 00:58:24,086] 58 root - INFO - Fetching 100 posts from r/memes
+[2025-10-04 00:58:24,086] 38 root - INFO - Start fetching r/memes (limit=100) (attempt 1)
+[2025-10-04 00:58:27,679] 59 root - INFO - Completed fetching r/memes — collected 100 posts
+[2025-10-04 00:58:28,680] 58 root - INFO - Fetching 100 posts from r/technology
+[2025-10-04 00:58:28,680] 38 root - INFO - Start fetching r/technology (limit=100) (attempt 1)
+[2025-10-04 00:58:32,303] 59 root - INFO - Completed fetching r/technology — collected 100 posts
+[2025-10-04 00:58:33,305] 58 root - INFO - Fetching 100 posts from r/Damnthatsinteresting
+[2025-10-04 00:58:33,305] 38 root - INFO - Start fetching r/Damnthatsinteresting (limit=100) (attempt 1)
+[2025-10-04 00:58:37,122] 59 root - INFO - Completed fetching r/Damnthatsinteresting — collected 100 posts
+[2025-10-04 00:58:38,124] 58 root - INFO - Fetching 100 posts from r/wallstreetbets
+[2025-10-04 00:58:38,124] 38 root - INFO - Start fetching r/wallstreetbets (limit=100) (attempt 1)
+[2025-10-04 00:58:42,143] 59 root - INFO - Completed fetching r/wallstreetbets — collected 100 posts
+[2025-10-04 00:58:43,146] 58 root - INFO - Fetching 100 posts from r/MadeMeSmile
+[2025-10-04 00:58:43,146] 38 root - INFO - Start fetching r/MadeMeSmile (limit=100) (attempt 1)
+[2025-10-04 00:58:48,427] 59 root - INFO - Completed fetching r/MadeMeSmile — collected 100 posts
+[2025-10-04 00:58:49,430] 58 root - INFO - Fetching 100 posts from r/mildlyinfuriating
+[2025-10-04 00:58:49,430] 38 root - INFO - Start fetching r/mildlyinfuriating (limit=100) (attempt 1)
+[2025-10-04 00:58:55,074] 59 root - INFO - Completed fetching r/mildlyinfuriating — collected 100 posts
+[2025-10-04 00:58:56,076] 58 root - INFO - Fetching 100 posts from r/ChatGPT
+[2025-10-04 00:58:56,076] 38 root - INFO - Start fetching r/ChatGPT (limit=100) (attempt 1)
+[2025-10-04 00:58:59,926] 59 root - INFO - Completed fetching r/ChatGPT — collected 100 posts
+[2025-10-04 00:59:00,928] 58 root - INFO - Fetching 100 posts from r/AmIOverreacting
+[2025-10-04 00:59:00,928] 38 root - INFO - Start fetching r/AmIOverreacting (limit=100) (attempt 1)
+[2025-10-04 00:59:05,183] 59 root - INFO - Completed fetching r/AmIOverreacting — collected 100 posts
+[2025-10-04 00:59:06,185] 58 root - INFO - Fetching 100 posts from r/programming
+[2025-10-04 00:59:06,185] 38 root - INFO - Start fetching r/programming (limit=100) (attempt 1)
+[2025-10-04 00:59:09,994] 59 root - INFO - Completed fetching r/programming — collected 100 posts
+[2025-10-04 00:59:10,996] 58 root - INFO - Fetching 100 posts from r/BlackPeopleTwitter
+[2025-10-04 00:59:10,996] 38 root - INFO - Start fetching r/BlackPeopleTwitter (limit=100) (attempt 1)
+[2025-10-04 00:59:14,637] 59 root - INFO - Completed fetching r/BlackPeopleTwitter — collected 100 posts
+[2025-10-04 00:59:15,640] 58 root - INFO - Fetching 100 posts from r/law
+[2025-10-04 00:59:15,640] 38 root - INFO - Start fetching r/law (limit=100) (attempt 1)
+[2025-10-04 00:59:19,362] 59 root - INFO - Completed fetching r/law — collected 100 posts
+[2025-10-04 00:59:20,363] 58 root - INFO - Fetching 100 posts from r/CleaningTips
+[2025-10-04 00:59:20,364] 38 root - INFO - Start fetching r/CleaningTips (limit=100) (attempt 1)
+[2025-10-04 00:59:24,632] 59 root - INFO - Completed fetching r/CleaningTips — collected 100 posts
+[2025-10-04 00:59:25,634] 58 root - INFO - Fetching 100 posts from r/Advice
+[2025-10-04 00:59:25,634] 38 root - INFO - Start fetching r/Advice (limit=100) (attempt 1)
+[2025-10-04 00:59:29,658] 59 root - INFO - Completed fetching r/Advice — collected 100 posts
+[2025-10-04 00:59:30,659] 58 root - INFO - Fetching 100 posts from r/SipsTea
+[2025-10-04 00:59:30,659] 38 root - INFO - Start fetching r/SipsTea (limit=100) (attempt 1)
+[2025-10-04 00:59:34,446] 59 root - INFO - Completed fetching r/SipsTea — collected 100 posts
+[2025-10-04 01:01:10,103] 58 root - INFO - Fetching 100 posts from r/PokemonTCG
+[2025-10-04 01:01:10,147] 38 root - INFO - Start fetching r/PokemonTCG (limit=100) (attempt 1)
+[2025-10-04 01:01:17,160] 59 root - INFO - Completed fetching r/PokemonTCG — collected 100 posts
+[2025-10-04 01:01:18,164] 58 root - INFO - Fetching 100 posts from r/geography
+[2025-10-04 01:01:18,164] 38 root - INFO - Start fetching r/geography (limit=100) (attempt 1)
+[2025-10-04 01:01:22,411] 59 root - INFO - Completed fetching r/geography — collected 100 posts
+[2025-10-04 01:01:23,413] 58 root - INFO - Fetching 100 posts from r/landscaping
+[2025-10-04 01:01:23,413] 38 root - INFO - Start fetching r/landscaping (limit=100) (attempt 1)
+[2025-10-04 01:01:28,234] 59 root - INFO - Completed fetching r/landscaping — collected 100 posts
+[2025-10-04 01:01:29,236] 58 root - INFO - Fetching 100 posts from r/tattooadvice
+[2025-10-04 01:01:29,237] 38 root - INFO - Start fetching r/tattooadvice (limit=100) (attempt 1)
+[2025-10-04 01:01:33,213] 59 root - INFO - Completed fetching r/tattooadvice — collected 100 posts
+[2025-10-04 01:01:34,215] 58 root - INFO - Fetching 100 posts from r/marvelrivals
+[2025-10-04 01:01:34,215] 38 root - INFO - Start fetching r/marvelrivals (limit=100) (attempt 1)
+[2025-10-04 01:01:38,005] 59 root - INFO - Completed fetching r/marvelrivals — collected 100 posts
+[2025-10-04 01:01:39,009] 58 root - INFO - Fetching 100 posts from r/olympics
+[2025-10-04 01:01:39,009] 38 root - INFO - Start fetching r/olympics (limit=100) (attempt 1)
+[2025-10-04 01:01:42,875] 59 root - INFO - Completed fetching r/olympics — collected 100 posts
+[2025-10-04 01:01:43,876] 58 root - INFO - Fetching 100 posts from r/deadbydaylight
+[2025-10-04 01:01:43,876] 38 root - INFO - Start fetching r/deadbydaylight (limit=100) (attempt 1)
+[2025-10-04 01:01:47,797] 59 root - INFO - Completed fetching r/deadbydaylight — collected 100 posts
+[2025-10-04 01:01:48,800] 58 root - INFO - Fetching 100 posts from r/MachineLearning
+[2025-10-04 01:01:48,800] 38 root - INFO - Start fetching r/MachineLearning (limit=100) (attempt 1)
+[2025-10-04 01:01:53,264] 59 root - INFO - Completed fetching r/MachineLearning — collected 100 posts
+[2025-10-04 01:01:54,266] 58 root - INFO - Fetching 100 posts from r/OpenAI
+[2025-10-04 01:01:54,266] 38 root - INFO - Start fetching r/OpenAI (limit=100) (attempt 1)
+[2025-10-04 01:01:58,318] 59 root - INFO - Completed fetching r/OpenAI — collected 100 posts
+[2025-10-04 01:01:59,320] 58 root - INFO - Fetching 100 posts from r/politics
+[2025-10-04 01:01:59,320] 38 root - INFO - Start fetching r/politics (limit=100) (attempt 1)
+[2025-10-04 01:02:03,861] 59 root - INFO - Completed fetching r/politics — collected 100 posts
+[2025-10-04 01:02:04,863] 58 root - INFO - Fetching 100 posts from r/entertainment
+[2025-10-04 01:02:04,863] 38 root - INFO - Start fetching r/entertainment (limit=100) (attempt 1)
+[2025-10-04 01:02:08,702] 59 root - INFO - Completed fetching r/entertainment — collected 100 posts
+[2025-10-04 01:02:09,704] 58 root - INFO - Fetching 100 posts from r/history
+[2025-10-04 01:02:09,704] 38 root - INFO - Start fetching r/history (limit=100) (attempt 1)
+[2025-10-04 01:02:16,223] 59 root - INFO - Completed fetching r/history — collected 100 posts
+[2025-10-04 01:02:17,226] 58 root - INFO - Fetching 100 posts from r/philosophy
+[2025-10-04 01:02:17,227] 38 root - INFO - Start fetching r/philosophy (limit=100) (attempt 1)
+[2025-10-04 01:02:21,539] 59 root - INFO - Completed fetching r/philosophy — collected 100 posts
+[2025-10-04 01:02:22,541] 58 root - INFO - Fetching 100 posts from r/fitness
+[2025-10-04 01:02:22,542] 38 root - INFO - Start fetching r/fitness (limit=100) (attempt 1)
+[2025-10-04 01:02:26,985] 59 root - INFO - Completed fetching r/fitness — collected 100 posts
+[2025-10-04 01:02:27,986] 58 root - INFO - Fetching 100 posts from r/relationships
+[2025-10-04 01:02:27,986] 38 root - INFO - Start fetching r/relationships (limit=100) (attempt 1)
+[2025-10-04 01:02:32,338] 59 root - INFO - Completed fetching r/relationships — collected 100 posts
+[2025-10-04 01:02:33,340] 58 root - INFO - Fetching 100 posts from r/TrueOffMyChest
+[2025-10-04 01:02:33,342] 38 root - INFO - Start fetching r/TrueOffMyChest (limit=100) (attempt 1)
+[2025-10-04 01:02:37,847] 59 root - INFO - Completed fetching r/TrueOffMyChest — collected 100 posts
+[2025-10-04 01:02:38,848] 58 root - INFO - Fetching 100 posts from r/antiwork
+[2025-10-04 01:02:38,848] 38 root - INFO - Start fetching r/antiwork (limit=100) (attempt 1)
+[2025-10-04 01:02:42,898] 59 root - INFO - Completed fetching r/antiwork — collected 100 posts
+[2025-10-04 01:02:43,900] 58 root - INFO - Fetching 100 posts from r/personalfinance
+[2025-10-04 01:02:43,900] 38 root - INFO - Start fetching r/personalfinance (limit=100) (attempt 1)
+[2025-10-04 01:02:47,515] 59 root - INFO - Completed fetching r/personalfinance — collected 100 posts
+[2025-10-04 01:02:48,516] 58 root - INFO - Fetching 100 posts from r/dataisbeautiful
+[2025-10-04 01:02:48,517] 38 root - INFO - Start fetching r/dataisbeautiful (limit=100) (attempt 1)
+[2025-10-04 01:02:52,518] 59 root - INFO - Completed fetching r/dataisbeautiful — collected 100 posts
+[2025-10-04 01:02:53,520] 58 root - INFO - Fetching 100 posts from r/nosleep
+[2025-10-04 01:02:53,521] 38 root - INFO - Start fetching r/nosleep (limit=100) (attempt 1)
+[2025-10-04 01:02:58,782] 59 root - INFO - Completed fetching r/nosleep — collected 100 posts
+[2025-10-04 01:02:59,784] 58 root - INFO - Fetching 100 posts from r/creepy
+[2025-10-04 01:02:59,785] 38 root - INFO - Start fetching r/creepy (limit=100) (attempt 1)
+[2025-10-04 01:03:04,394] 59 root - INFO - Completed fetching r/creepy — collected 100 posts
+[2025-10-04 01:03:05,396] 58 root - INFO - Fetching 100 posts from r/upliftingnews
+[2025-10-04 01:03:05,396] 38 root - INFO - Start fetching r/upliftingnews (limit=100) (attempt 1)
+[2025-10-04 01:03:09,495] 59 root - INFO - Completed fetching r/upliftingnews — collected 100 posts
+[2025-10-04 01:03:10,496] 58 root - INFO - Fetching 100 posts from r/dankmemes
+[2025-10-04 01:03:10,496] 38 root - INFO - Start fetching r/dankmemes (limit=100) (attempt 1)
+[2025-10-04 01:03:18,528] 59 root - INFO - Completed fetching r/dankmemes — collected 100 posts
+[2025-10-04 01:03:19,529] 58 root - INFO - Fetching 100 posts from r/wholesomememes
+[2025-10-04 01:03:19,529] 38 root - INFO - Start fetching r/wholesomememes (limit=100) (attempt 1)
+[2025-10-04 01:03:23,220] 59 root - INFO - Completed fetching r/wholesomememes — collected 100 posts
+[2025-10-04 01:03:24,221] 58 root - INFO - Fetching 100 posts from r/instant_regret
+[2025-10-04 01:03:24,221] 38 root - INFO - Start fetching r/instant_regret (limit=100) (attempt 1)
+[2025-10-04 01:03:28,042] 59 root - INFO - Completed fetching r/instant_regret — collected 100 posts
+[2025-10-04 01:03:29,045] 58 root - INFO - Fetching 100 posts from r/PublicFreakout
+[2025-10-04 01:03:29,045] 38 root - INFO - Start fetching r/PublicFreakout (limit=100) (attempt 1)
+[2025-10-04 01:03:33,279] 59 root - INFO - Completed fetching r/PublicFreakout — collected 100 posts
+[2025-10-04 01:03:34,282] 58 root - INFO - Fetching 100 posts from r/idiocy
+[2025-10-04 01:03:34,282] 38 root - INFO - Start fetching r/idiocy (limit=100) (attempt 1)
+[2025-10-04 01:03:34,824] 64 root - WARNING - Error while fetching r/idiocy: received 404 HTTP response (attempt 1/3)
+[2025-10-04 01:03:34,824] 71 root - INFO - Retrying r/idiocy after 2.0s backoff
+[2025-10-04 01:03:36,825] 38 root - INFO - Start fetching r/idiocy (limit=100) (attempt 2)
+[2025-10-04 01:03:37,486] 64 root - WARNING - Error while fetching r/idiocy: received 404 HTTP response (attempt 2/3)
+[2025-10-04 01:03:37,487] 71 root - INFO - Retrying r/idiocy after 4.0s backoff
+[2025-10-04 01:03:41,487] 38 root - INFO - Start fetching r/idiocy (limit=100) (attempt 3)
+[2025-10-04 01:03:42,038] 64 root - WARNING - Error while fetching r/idiocy: received 404 HTTP response (attempt 3/3)
+[2025-10-04 01:03:42,038] 71 root - INFO - Retrying r/idiocy after 8.0s backoff
+[2025-10-04 01:03:50,039] 38 root - INFO - Start fetching r/idiocy (limit=100) (attempt 4)
+[2025-10-04 01:03:50,404] 64 root - WARNING - Error while fetching r/idiocy: received 404 HTTP response (attempt 4/3)
+[2025-10-04 01:03:50,404] 67 root - ERROR - Max retries reached for r/idiocy — returning partial results (0 collected).
+Traceback (most recent call last):
+  File "E:\Sentiment_Based_Social_Media_Feed_Organize \src\ingestion\reddit_ingestor.py", line 40, in fetch_post
+    for idx, post in enumerate(gen, start=1):
+  File "C:\Users\Hareesh\AppData\Roaming\Python\Python311\site-packages\praw\models\listing\generator.py", line 66, in __next__
+    self._next_batch()
+  File "C:\Users\Hareesh\AppData\Roaming\Python\Python311\site-packages\praw\models\listing\generator.py", line 90, in _next_batch
+    self._listing = self._reddit.get(self.url, params=self.params)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hareesh\AppData\Roaming\Python\Python311\site-packages\praw\util\deprecate_args.py", line 46, in wrapped
+    return func(**dict(zip(_old_args, args)), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hareesh\AppData\Roaming\Python\Python311\site-packages\praw\reddit.py", line 731, in get
+    return self._objectify_request(method="GET", params=params, path=path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hareesh\AppData\Roaming\Python\Python311\site-packages\praw\reddit.py", line 514, in _objectify_request
+    self.request(
+  File "C:\Users\Hareesh\AppData\Roaming\Python\Python311\site-packages\praw\util\deprecate_args.py", line 46, in wrapped
+    return func(**dict(zip(_old_args, args)), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hareesh\AppData\Roaming\Python\Python311\site-packages\praw\reddit.py", line 963, in request
+    return self._core.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hareesh\AppData\Roaming\Python\Python311\site-packages\prawcore\sessions.py", line 328, in request
+    return self._request_with_retries(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hareesh\AppData\Roaming\Python\Python311\site-packages\prawcore\sessions.py", line 267, in _request_with_retries
+    raise self.STATUS_EXCEPTIONS[response.status_code](response)
+prawcore.exceptions.NotFound: received 404 HTTP response
+[2025-10-04 01:03:50,422] 64 root - WARNING - No posts fetched from r/idiocy
+[2025-10-04 01:03:51,424] 58 root - INFO - Fetching 100 posts from r/facepalm
+[2025-10-04 01:03:51,424] 38 root - INFO - Start fetching r/facepalm (limit=100) (attempt 1)
+[2025-10-04 01:03:55,130] 59 root - INFO - Completed fetching r/facepalm — collected 100 posts
+[2025-10-04 01:03:56,131] 58 root - INFO - Fetching 100 posts from r/natureismetal
+[2025-10-04 01:03:56,131] 38 root - INFO - Start fetching r/natureismetal (limit=100) (attempt 1)
+[2025-10-04 01:03:59,961] 59 root - INFO - Completed fetching r/natureismetal — collected 100 posts
+[2025-10-04 01:04:00,964] 58 root - INFO - Fetching 100 posts from r/unexpected
+[2025-10-04 01:04:00,964] 38 root - INFO - Start fetching r/unexpected (limit=100) (attempt 1)
+[2025-10-04 01:04:04,805] 59 root - INFO - Completed fetching r/unexpected — collected 100 posts
+[2025-10-04 01:04:05,807] 58 root - INFO - Fetching 100 posts from r/nononono
+[2025-10-04 01:04:05,807] 38 root - INFO - Start fetching r/nononono (limit=100) (attempt 1)
+[2025-10-04 01:04:11,583] 59 root - INFO - Completed fetching r/nononono — collected 100 posts
+[2025-10-04 01:04:12,585] 58 root - INFO - Fetching 100 posts from r/holdmybeer
+[2025-10-04 01:04:12,585] 38 root - INFO - Start fetching r/holdmybeer (limit=100) (attempt 1)
+[2025-10-04 01:04:16,690] 59 root - INFO - Completed fetching r/holdmybeer — collected 100 posts
+[2025-10-04 01:04:17,693] 58 root - INFO - Fetching 100 posts from r/watchpeopledieinside
+[2025-10-04 01:04:17,693] 38 root - INFO - Start fetching r/watchpeopledieinside (limit=100) (attempt 1)
+[2025-10-04 01:04:22,068] 59 root - INFO - Completed fetching r/watchpeopledieinside — collected 100 posts
+[2025-10-04 01:04:23,070] 58 root - INFO - Fetching 100 posts from r/tumblr
+[2025-10-04 01:04:23,070] 38 root - INFO - Start fetching r/tumblr (limit=100) (attempt 1)
+[2025-10-04 01:04:27,009] 59 root - INFO - Completed fetching r/tumblr — collected 100 posts
+[2025-10-04 01:04:28,012] 58 root - INFO - Fetching 100 posts from r/twitter
+[2025-10-04 01:04:28,012] 38 root - INFO - Start fetching r/twitter (limit=100) (attempt 1)
+[2025-10-04 01:04:32,014] 59 root - INFO - Completed fetching r/twitter — collected 100 posts
+[2025-10-04 01:04:33,016] 58 root - INFO - Fetching 100 posts from r/Instagramreality
+[2025-10-04 01:04:33,016] 38 root - INFO - Start fetching r/Instagramreality (limit=100) (attempt 1)
+[2025-10-04 01:04:38,084] 59 root - INFO - Completed fetching r/Instagramreality — collected 100 posts
+[2025-10-04 01:04:39,087] 58 root - INFO - Fetching 100 posts from r/tifu
+[2025-10-04 01:04:39,087] 38 root - INFO - Start fetching r/tifu (limit=100) (attempt 1)
+[2025-10-04 01:04:43,166] 59 root - INFO - Completed fetching r/tifu — collected 100 posts
+[2025-10-04 01:04:44,168] 58 root - INFO - Fetching 100 posts from r/malefashionadvice
+[2025-10-04 01:04:44,168] 38 root - INFO - Start fetching r/malefashionadvice (limit=100) (attempt 1)
+[2025-10-04 01:04:48,423] 59 root - INFO - Completed fetching r/malefashionadvice — collected 100 posts
+[2025-10-04 01:04:49,425] 58 root - INFO - Fetching 100 posts from r/femalefashionadvice
+[2025-10-04 01:04:49,425] 38 root - INFO - Start fetching r/femalefashionadvice (limit=100) (attempt 1)
+[2025-10-04 01:04:53,241] 59 root - INFO - Completed fetching r/femalefashionadvice — collected 100 posts
+[2025-10-04 01:04:54,243] 58 root - INFO - Fetching 100 posts from r/kpop
+[2025-10-04 01:04:54,243] 38 root - INFO - Start fetching r/kpop (limit=100) (attempt 1)
+[2025-10-04 01:04:59,195] 59 root - INFO - Completed fetching r/kpop — collected 100 posts
+[2025-10-04 01:05:00,198] 58 root - INFO - Fetching 100 posts from r/anime
+[2025-10-04 01:05:00,198] 38 root - INFO - Start fetching r/anime (limit=100) (attempt 1)
+[2025-10-04 01:05:07,676] 59 root - INFO - Completed fetching r/anime — collected 100 posts
+[2025-10-04 01:05:08,680] 58 root - INFO - Fetching 100 posts from r/manga
+[2025-10-04 01:05:08,681] 38 root - INFO - Start fetching r/manga (limit=100) (attempt 1)
+[2025-10-04 01:05:12,848] 59 root - INFO - Completed fetching r/manga — collected 100 posts
+[2025-10-04 01:05:13,854] 58 root - INFO - Fetching 100 posts from r/leagueoflegends
+[2025-10-04 01:05:13,854] 38 root - INFO - Start fetching r/leagueoflegends (limit=100) (attempt 1)
+[2025-10-04 01:05:18,026] 59 root - INFO - Completed fetching r/leagueoflegends — collected 100 posts
+[2025-10-04 01:05:19,028] 58 root - INFO - Fetching 100 posts from r/fortnitebr
+[2025-10-04 01:05:19,029] 38 root - INFO - Start fetching r/fortnitebr (limit=100) (attempt 1)
+[2025-10-04 01:05:23,017] 59 root - INFO - Completed fetching r/fortnitebr — collected 100 posts
+[2025-10-04 01:05:24,018] 58 root - INFO - Fetching 100 posts from r/Minecraft
+[2025-10-04 01:05:24,018] 38 root - INFO - Start fetching r/Minecraft (limit=100) (attempt 1)
+[2025-10-04 01:05:28,787] 59 root - INFO - Completed fetching r/Minecraft — collected 100 posts
+[2025-10-04 01:05:29,790] 58 root - INFO - Fetching 100 posts from r/nfl
+[2025-10-04 01:05:29,790] 38 root - INFO - Start fetching r/nfl (limit=100) (attempt 1)
+[2025-10-04 01:05:33,899] 59 root - INFO - Completed fetching r/nfl — collected 100 posts
+[2025-10-04 01:05:34,900] 58 root - INFO - Fetching 100 posts from r/nba
+[2025-10-04 01:05:34,900] 38 root - INFO - Start fetching r/nba (limit=100) (attempt 1)
+[2025-10-04 01:05:40,512] 59 root - INFO - Completed fetching r/nba — collected 100 posts
+[2025-10-04 01:05:41,514] 58 root - INFO - Fetching 100 posts from r/soccer
+[2025-10-04 01:05:41,515] 38 root - INFO - Start fetching r/soccer (limit=100) (attempt 1)
+[2025-10-04 01:05:45,094] 59 root - INFO - Completed fetching r/soccer — collected 100 posts
+[2025-10-04 01:05:46,096] 58 root - INFO - Fetching 100 posts from r/baseball
+[2025-10-04 01:05:46,096] 38 root - INFO - Start fetching r/baseball (limit=100) (attempt 1)
+[2025-10-04 01:05:50,097] 59 root - INFO - Completed fetching r/baseball — collected 100 posts
+[2025-10-04 01:05:51,099] 58 root - INFO - Fetching 100 posts from r/hockey
+[2025-10-04 01:05:51,099] 38 root - INFO - Start fetching r/hockey (limit=100) (attempt 1)
+[2025-10-04 01:05:55,194] 59 root - INFO - Completed fetching r/hockey — collected 100 posts
+[2025-10-04 01:05:56,196] 58 root - INFO - Fetching 100 posts from r/tennis
+[2025-10-04 01:05:56,196] 38 root - INFO - Start fetching r/tennis (limit=100) (attempt 1)
+[2025-10-04 01:06:00,526] 59 root - INFO - Completed fetching r/tennis — collected 100 posts
+[2025-10-04 01:06:01,527] 58 root - INFO - Fetching 100 posts from r/cooking
+[2025-10-04 01:06:01,527] 38 root - INFO - Start fetching r/cooking (limit=100) (attempt 1)
+[2025-10-04 01:06:05,634] 59 root - INFO - Completed fetching r/cooking — collected 100 posts
+[2025-10-04 01:06:06,635] 58 root - INFO - Fetching 100 posts from r/baking
+[2025-10-04 01:06:06,635] 38 root - INFO - Start fetching r/baking (limit=100) (attempt 1)
+[2025-10-04 01:06:11,293] 59 root - INFO - Completed fetching r/baking — collected 100 posts
+[2025-10-04 01:06:12,295] 58 root - INFO - Fetching 100 posts from r/recipes
+[2025-10-04 01:06:12,295] 38 root - INFO - Start fetching r/recipes (limit=100) (attempt 1)
+[2025-10-04 01:06:19,725] 59 root - INFO - Completed fetching r/recipes — collected 100 posts
+[2025-10-04 01:06:20,727] 58 root - INFO - Fetching 100 posts from r/travel
+[2025-10-04 01:06:20,727] 38 root - INFO - Start fetching r/travel (limit=100) (attempt 1)
+[2025-10-04 01:06:25,041] 59 root - INFO - Completed fetching r/travel — collected 100 posts
+[2025-10-04 01:06:26,459] 20 root - INFO - Saved CSV with 9900 rows to data\raw\reddit_data.csv
+[2025-10-04 01:06:27,139] 35 root - INFO - Saved JSON (records) with 9900 rows to data\processed\reddit_data.json
+[2025-10-04 01:06:27,319] 84 root - INFO - Loaded 9900 documents from data\processed\reddit_data.json (skipped 0 malformed lines).
+[2025-10-04 01:06:27,807] 60 root - INFO - Inserted 9900 new documents (attempted 9900).
+[2025-10-04 01:06:27,821] 75 root - INFO - Pipeline complete. 9900 documents inserted into MongoDB.
+[2025-10-04 01:06:27,829] 19 root - INFO - Pipeline completed successfully!

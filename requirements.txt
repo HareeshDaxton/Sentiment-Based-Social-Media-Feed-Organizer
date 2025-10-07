@@ -1,0 +1,27 @@
+
+# Data science / numerical
+pandas
+numpy
+
+# ML / NLP
+scikit-learn
+transformers
+torch
+
+# Visualization
+plotly
+matplotlib
+
+# Sentiment & NLP utilities
+tf-keras
+textblob
+nltk
+
+# Reddit + storage + config
+praw
+pymongo
+python-dotenv
+pyamlL
+
+# Model persistence / utilities
+joblib

@@ -1,0 +1,21 @@
+[2025-10-05 22:50:17,513] 24 root - INFO - Initialized SentimentTrainer with model_dir: data/processed
+[2025-10-05 22:50:17,914] 41 root - INFO - Loaded 9894 labeled samples from data/labeled/fully_cleaned.csv
+[2025-10-05 22:50:20,365] 86 root - INFO - Training logistic_regression...
+[2025-10-05 22:50:24,153] 96 root - INFO - logistic_regression - Accuracy: 0.6534, F1: 0.6596
+[2025-10-05 22:50:24,154] 86 root - INFO - Training SVM...
+[2025-10-05 22:52:04,408] 96 root - INFO - SVM - Accuracy: 0.6796, F1: 0.6445
+[2025-10-05 22:52:04,408] 86 root - INFO - Training random_forest...
+[2025-10-05 22:52:07,004] 96 root - INFO - random_forest - Accuracy: 0.6513, F1: 0.6515
+[2025-10-05 22:52:07,081] 144 root - INFO - Saved model to data/processed\sentiment_model_logistic_regression.pkl and vectorizer to data/processed\tfidf_vectorizer_lr.pkl
+[2025-10-05 22:52:07,083] 49 root - INFO - Starting sentiment analysis pipeline...
+[2025-10-05 22:52:07,429] 22 root - INFO - Loaded processed data: 9900 rows from data/labeled/fully_cleaned.csv
+[2025-10-05 22:52:15,374] 149 tensorflow - WARNING - From C:\Users\Hareesh\AppData\Roaming\Python\Python311\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-10-05 22:52:18,108] 47 root - INFO - Loaded transformer model: cardiffnlp/twitter-roberta-base-sentiment-latest
+[2025-10-05 23:19:34,935] 73 root - INFO - Predicted sentiments for 9894 texts using transformer model.
+[2025-10-05 23:19:35,903] 39 root - INFO - Saved sentiment results to data/processed/sentiment_output_20251005_231934.csv
+[2025-10-05 23:19:35,904] 86 root - INFO - Sentiment pipeline completed successfully.
+[2025-10-05 23:19:36,079] 27 root - INFO - Initialized FeedGenerator with input: data/processed\sentiment_output_20251005_231934.csv
+[2025-10-05 23:19:36,563] 39 root - INFO - Loaded 9900 posts from data/processed\sentiment_output_20251005_231934.csv
+[2025-10-05 23:19:39,876] 77 root - INFO - Feed organized successfully.
+[2025-10-05 23:19:40,139] 105 root - INFO - Saved feed to data/processed\final_feed_20251005_231939.json

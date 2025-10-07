@@ -1,0 +1,14 @@
+{
+  "records_processed": 9900,
+  "empty_raw_texts": 0,
+  "empty_cleaned_texts": 6,
+  "empty_normalized_texts": 8,
+  "duplicates_raw": 104,
+  "duplicates_cleaned": 242,
+  "null_titles": 0,
+  "null_selftext": 5589,
+  "avg_raw_length": 610.2514141414141,
+  "avg_cleaned_length": 501.97939393939396,
+  "avg_normalized_length": 454.9577777777778,
+  "timestamp": "2025-10-05T00:54:35.916308"
+}

@@ -1,0 +1,14 @@
+[2025-10-05 22:38:46,453] 24 root - INFO - Initialized SentimentTrainer with model_dir: data/processed
+[2025-10-05 22:38:46,923] 41 root - INFO - Loaded 9894 labeled samples from data/labeled/fully_cleaned.csv
+[2025-10-05 22:38:49,684] 77 root - INFO - Training logistic_regression...
+[2025-10-05 22:38:50,256] 87 root - INFO - logistic_regression - Accuracy: 0.6842, F1: 0.6609
+[2025-10-05 22:38:50,256] 77 root - INFO - Training SVM...
+[2025-10-05 22:40:20,390] 87 root - INFO - SVM - Accuracy: 0.6796, F1: 0.6445
+[2025-10-05 22:40:20,390] 77 root - INFO - Training random_forest...
+[2025-10-05 22:40:22,868] 87 root - INFO - random_forest - Accuracy: 0.6513, F1: 0.6515
+[2025-10-05 22:40:22,937] 135 root - INFO - Saved model to data/processed\sentiment_model_logistic_regression.pkl and vectorizer to data/processed\tfidf_vectorizer_rf.pkl
+[2025-10-05 22:40:22,939] 49 root - INFO - Starting sentiment analysis pipeline...
+[2025-10-05 22:40:23,284] 22 root - INFO - Loaded processed data: 9900 rows from data/labeled/fully_cleaned.csv
+[2025-10-05 22:40:36,407] 149 tensorflow - WARNING - From C:\Users\Hareesh\AppData\Roaming\Python\Python311\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-10-05 22:40:41,430] 47 root - INFO - Loaded transformer model: cardiffnlp/twitter-roberta-base-sentiment-latest

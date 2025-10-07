@@ -1,0 +1,2 @@
+client_id : "AEJVauFgASesRFuip_1VoQ"
+    client_secret: "eC26Ck0q9FyuAbE_yS1JYGQH9NrEjQ"

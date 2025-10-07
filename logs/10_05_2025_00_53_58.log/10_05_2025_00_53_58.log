@@ -1,0 +1,29 @@
+[2025-10-05 00:54:10,619] 36 root - INFO - Starting data preprocessing pipeline...
+[2025-10-05 00:54:10,630] 48 root - INFO - Starting preprocessing...
+[2025-10-05 00:54:10,630] 311 root - INFO - Starting preprocessing pipeline...
+[2025-10-05 00:54:10,630] 270 root - WARNING - MongoDB config missing. Attempting local fallback.
+[2025-10-05 00:54:10,760] 302 root - INFO - Loaded fallback CSV: 9900 records.
+[2025-10-05 00:54:11,072] 239 root - INFO - Saved CSV with 9900 rows to data\raw\preprocess_raw_backup.csv
+[2025-10-05 00:54:11,359] 255 root - INFO - Saved JSON (records) with 9900 rows to data\processed\reddit_data.json
+[2025-10-05 00:54:11,383] 340 root - INFO - Applying text cleaning...
+[2025-10-05 00:54:23,638] 343 root - INFO - Applying text normalization...
+[2025-10-05 00:54:23,856] 33 root - WARNING - Invalid text input provided for normalization.
+[2025-10-05 00:54:23,995] 33 root - WARNING - Invalid text input provided for normalization.
+[2025-10-05 00:54:24,718] 33 root - WARNING - Invalid text input provided for normalization.
+[2025-10-05 00:54:25,221] 33 root - WARNING - Invalid text input provided for normalization.
+[2025-10-05 00:54:25,222] 33 root - WARNING - Invalid text input provided for normalization.
+[2025-10-05 00:54:27,185] 33 root - WARNING - Invalid text input provided for normalization.
+[2025-10-05 00:54:27,895] 347 root - INFO - Vectorizing text...
+[2025-10-05 00:54:27,895] 38 root - INFO - Fitting TF-IDF on 9900 documents...
+[2025-10-05 00:54:31,833] 51 root - INFO - Applying SVD to reduce to 100 components...
+[2025-10-05 00:54:34,181] 56 root - INFO - TF-IDF shape: (9900, 100)
+[2025-10-05 00:54:34,205] 84 root - INFO - Vectorizer saved to data\processed\tfidf_model_vectorizer.pkl
+[2025-10-05 00:54:34,593] 93 root - INFO - Vectors saved to data\processed\tfidf_vectors.npz
+[2025-10-05 00:54:35,180] 357 root - INFO - Timestamped CSV saved: data\processed\cleaned_normalized_20251005_005434.csv
+[2025-10-05 00:54:35,858] 361 root - INFO - Fixed cleaned CSV saved: data\cleaned\cleaned_data.csv
+[2025-10-05 00:54:35,919] 368 root - INFO - Diagnostics saved: data\processed\preprocess_report_20251005_005434.json
+[2025-10-05 00:54:35,926] 372 root - INFO - Preview saved.
+[2025-10-05 00:54:35,927] 374 root - INFO - Preprocessing complete.
+[2025-10-05 00:54:35,929] 54 root - INFO - Preprocessing completed successfully!
+[2025-10-05 00:54:35,930] 55 root - INFO - You can find the processed data in the data/processed directory
+[2025-10-05 00:54:35,930] 56 root - INFO - Cleaned data is available in data/cleaned/cleaned_data.csv

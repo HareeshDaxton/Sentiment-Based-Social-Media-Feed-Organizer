@@ -1,0 +1,22 @@
+[2025-10-05 21:40:40,594] 24 root - INFO - Initialized SentimentTrainer with model_dir: data/processed
+[2025-10-05 21:40:41,235] 41 root - INFO - Loaded 9894 labeled samples from data/labeled/fully_cleaned.csv
+[2025-10-05 21:40:44,472] 65 root - INFO - Training logistic_regression...
+[2025-10-05 21:40:45,052] 75 root - INFO - logistic_regression - Accuracy: 0.6842, F1: 0.6609
+[2025-10-05 21:40:45,053] 65 root - INFO - Training SVM...
+[2025-10-05 21:42:37,384] 75 root - INFO - SVM - Accuracy: 0.6796, F1: 0.6445
+[2025-10-05 21:42:37,384] 65 root - INFO - Training 'random_fores...
+[2025-10-05 21:42:55,429] 75 root - INFO - 'random_fores - Accuracy: 0.6690, F1: 0.6371
+[2025-10-05 21:42:55,526] 123 root - INFO - Saved model to data/processed\sentiment_model_logistic_regression.pkl and vectorizer to data/processed\tfidf_vectorizer.pkl
+[2025-10-05 21:42:55,527] 49 root - INFO - Starting sentiment analysis pipeline...
+[2025-10-05 21:42:55,920] 22 root - INFO - Loaded processed data: 9900 rows from data/labeled/fully_cleaned.csv
+[2025-10-05 21:43:07,162] 321 huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /cardiffnlp/twitter-roberta-base-sentiment-latest/resolve/main/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001703747A110>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: f7c2a0d0-a3b2-48d1-a231-1de59586129b)')' thrown while requesting HEAD https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest/resolve/main/config.json
+[2025-10-05 21:43:07,163] 330 huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+[2025-10-05 21:43:20,584] 149 tensorflow - WARNING - From C:\Users\Hareesh\AppData\Roaming\Python\Python311\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-10-05 21:43:24,144] 47 root - INFO - Loaded transformer model: cardiffnlp/twitter-roberta-base-sentiment-latest
+[2025-10-05 22:16:51,429] 73 root - INFO - Predicted sentiments for 9894 texts using transformer model.
+[2025-10-05 22:16:53,057] 39 root - INFO - Saved sentiment results to data/processed/sentiment_output_20251005_221651.csv
+[2025-10-05 22:16:53,058] 86 root - INFO - Sentiment pipeline completed successfully.
+[2025-10-05 22:16:53,439] 27 root - INFO - Initialized FeedGenerator with input: data/processed\sentiment_output_20251005_221651.csv
+[2025-10-05 22:16:54,214] 39 root - INFO - Loaded 9900 posts from data/processed\sentiment_output_20251005_221651.csv
+[2025-10-05 22:16:54,459] 78 root - ERROR - Error organizing feed: '<' not supported between instances of 'Post' and 'Post'
