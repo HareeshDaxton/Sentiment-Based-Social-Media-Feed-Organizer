@@ -2,7 +2,7 @@ import praw
 
 reddit = praw.Reddit(
     client_id="YOUR CLIENT ID",
-    client_secret="eC26Ck0q9FyuAbE_yS1JYGQH9NrEjQ",
+    client_secret="YOUR CLIENT SECRET",
     user_agent="reddit_pipeline_app"
 )
 
